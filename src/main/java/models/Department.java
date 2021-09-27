@@ -53,5 +53,23 @@ public class Department {
     }
 
 
+    public void setMarketing(String marketing) {
+        this.marketing = marketing;
+    }
 
+    public void setSales(int sales) {
+        this.sales = sales;
+    }
+
+    public void setVenturecaptalist(String venturecaptalist) {
+        this.venturecaptalist = venturecaptalist;
+    }
+
+    public int getNumberofstaff() {
+        return numberofstaff;
+    }
+
+    public String getInnovation() {
+        return innovation;
+    }
 }
